@@ -27,11 +27,26 @@
 #     return sum(args)
 
 # print(sumar(1,2,3))
-
+numeros = []
 def fibonacci(numero):
     if ((numero == 0) or (numero == 1)):
         return numero
     else:
-        return fibonacci(numero) + fibonacci(numero - 1)
+        numero = fibonacci(numero - 1) + fibonacci(numero - 2)
+        return numero
 
-print(fibonacci(2))
+
+print(fibonacci(9))
+
+# Utilizando un bucle “while”, elaborar un código
+# que imprima en pantalla cada uno de los
+# elementos de una lista y simultáneamente los
+# elimine, hasta quedar vacía.
+
+
+# numeros = [1, 2, 3]
+
+# while numeros:
+#     print(numeros.pop())
+
+# print(numeros)
