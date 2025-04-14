@@ -27,16 +27,16 @@
 #     return sum(args)
 
 # print(sumar(1,2,3))
-numeros = []
-def fibonacci(numero):
-    if ((numero == 0) or (numero == 1)):
-        return numero
-    else:
-        numero = fibonacci(numero - 1) + fibonacci(numero - 2)
-        return numero
+# numeros = []
+# def fibonacci(numero):
+#     if ((numero == 0) or (numero == 1)):
+#         return numero
+#     else:
+#         numero = fibonacci(numero - 1) + fibonacci(numero - 2)
+#         return numero
 
 
-print(fibonacci(9))
+# print(fibonacci(9))
 
 # Utilizando un bucle “while”, elaborar un código
 # que imprima en pantalla cada uno de los
@@ -50,3 +50,5 @@ print(fibonacci(9))
 #     print(numeros.pop())
 
 # print(numeros)
+
+
