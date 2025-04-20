@@ -47,12 +47,15 @@
 
 
 
-# def obtener_numero(mensaje):
-#     while True:
-#         try:
-#             return float(input(mensaje))
-#         except ValueError:
-#             print("Debes ingresar un número válido. Intenta de nuevo.")
+def obtener_numero(mensaje):
+    while True:
+        try:
+            return float(input(mensaje))
+        except ValueError:
+            print("Debes ingresar un número válido. Intenta de nuevo.")
+
+obtener_numero(1)
+obtener_numero('a')
 
 # def calculadora(n1, n2):
 #     print(n1 + n2)

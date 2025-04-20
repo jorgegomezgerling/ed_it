@@ -18,12 +18,12 @@
 # Se puede usar funciones de orden superior para
 # resolver el ejercicio, no hay limitaciones.
 
-nombres = ["juan salvo","henry courtney","elizabeth bennet","marge simpson"]
+# nombres = ["juan salvo","henry courtney","elizabeth bennet","marge simpson"]
 
-def mayusculas(funcion, lista):
-    new_list = []
-    for i in lista:
-        new_list.append(funcion(i))
-    return new_list
+# def mayusculas(funcion, lista):
+#     new_list = []
+#     for i in lista:
+#         new_list.append(funcion(i))
+#     return new_list
 
-print(mayusculas(lambda x:x.title(), nombres))
+# print(mayusculas(lambda x:x.title(), nombres))
